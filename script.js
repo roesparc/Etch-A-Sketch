@@ -11,3 +11,9 @@ for (let i = 0; i < 256; i++) {
 }
 
 body.appendChild(gridContainer)
+
+const gridDiv = document.querySelectorAll('.grid')
+
+gridDiv.forEach(div => div.addEventListener('mouseover', () => {
+    div.style.backgroundColor = 'red'
+}))
