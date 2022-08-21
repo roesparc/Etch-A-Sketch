@@ -1,17 +1,17 @@
-.body {
+body {
     margin: 0;
 }
 
 .gridContainer {
-    width: 384px;
-    height: 384px;
+    width: 480px;
+    height: 480px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .grid {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background-color: aqua;
 }
 
