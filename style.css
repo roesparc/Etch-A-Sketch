@@ -1,8 +1,6 @@
-body {
-    margin: 0;
-}
-
 .gridContainer {
+    margin-top: 8px;
+    border: 3px solid rgb(70, 70, 70);
     width: 480px;
     height: 480px;
     display: flex;
@@ -12,6 +10,45 @@ body {
 .grid {
     width: 30px;
     height: 30px;
-    background-color: aqua;
+    transition: all 0.15s ease;
 }
 
+.darker90 {
+    filter: brightness(0.9)
+}
+
+.darker80 {
+    filter: brightness(0.8)
+}
+
+.darker70 {
+    filter: brightness(0.7)
+}
+
+.darker60 {
+    filter: brightness(0.6)
+}
+
+.darker50 {
+    filter: brightness(0.5)
+}
+
+.darker40 {
+    filter: brightness(0.4)
+}
+
+.darker30 {
+    filter: brightness(0.3)
+}
+
+.darker20 {
+    filter: brightness(0.2)
+}
+
+.darker10 {
+    filter: brightness(0.1)
+}
+
+.darker0 {
+    filter: brightness(0)
+}
