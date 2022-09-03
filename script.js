@@ -2,6 +2,8 @@ const body = document.querySelector('body');
 
 const gridContainer = document.querySelector('.gridContainer');
 
+const author = document.querySelector('.author')
+
 const gridContainerBtn = document.createElement('div');
 gridContainerBtn.classList.add('gridContainer');
 
@@ -18,32 +20,62 @@ gridDiv.forEach(div => div.addEventListener('mouseover', () => {
         div.style.backgroundColor =
         `hsl(${randomColor}, 100%, 50%)`;
     } else if (div.classList.value === 'grid') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.add('darker90');
     } else if (div.classList.value === 'grid darker90') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker90');
         div.classList.add('darker80');
     } else if (div.classList.value === 'grid darker80') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker80');
         div.classList.add('darker70');
     } else if (div.classList.value === 'grid darker70') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker70');
         div.classList.add('darker60');
     } else if (div.classList.value === 'grid darker60') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker60');
         div.classList.add('darker50');
     } else if (div.classList.value === 'grid darker50') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker50');
         div.classList.add('darker40');
     } else if (div.classList.value === 'grid darker40') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker40');
         div.classList.add('darker30');
     } else if (div.classList.value === 'grid darker30') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker30');
         div.classList.add('darker20');
     } else if (div.classList.value === 'grid darker20') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker20');
         div.classList.add('darker10');
     } else if (div.classList.value === 'grid darker10') {
+        const randomColor = Math.floor(Math.random() * 360);
+        div.style.backgroundColor =
+        `hsl(${randomColor}, 100%, 50%)`;
         div.classList.remove('darker10');
         div.classList.add('darker0');
     }
@@ -66,7 +98,7 @@ function clickBtn() {
         gridContainerBtn.appendChild(grid);
     }
 
-    body.appendChild(gridContainerBtn);
+    body.insertBefore(gridContainerBtn, author);
 
     const gridDiv = document.querySelectorAll('.grid');
     gridDiv.forEach(div => {
@@ -80,32 +112,62 @@ function clickBtn() {
            div.style.backgroundColor =
            `hsl(${randomColor}, 100%, 50%)`;
        } else if (div.classList.value === 'grid') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.add('darker90');
        } else if (div.classList.value === 'grid darker90') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker90');
            div.classList.add('darker80');
        } else if (div.classList.value === 'grid darker80') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker80');
            div.classList.add('darker70');
        } else if (div.classList.value === 'grid darker70') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker70');
            div.classList.add('darker60');
        } else if (div.classList.value === 'grid darker60') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker60');
            div.classList.add('darker50');
        } else if (div.classList.value === 'grid darker50') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker50');
            div.classList.add('darker40');
        } else if (div.classList.value === 'grid darker40') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker40');
            div.classList.add('darker30');
        } else if (div.classList.value === 'grid darker30') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker30');
            div.classList.add('darker20');
        } else if (div.classList.value === 'grid darker20') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker20');
            div.classList.add('darker10');
        } else if (div.classList.value === 'grid darker10') {
+            const randomColor = Math.floor(Math.random() * 360);
+            div.style.backgroundColor =
+            `hsl(${randomColor}, 100%, 50%)`;
            div.classList.remove('darker10');
            div.classList.add('darker0');
        }
