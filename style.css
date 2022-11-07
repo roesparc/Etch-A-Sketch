@@ -59,6 +59,9 @@ a {
     text-shadow: 0 0 2px red, 0 0 2px red, 0 0 2px red,
     0 0 2px red;
 }
+a:hover {
+    text-decoration: underline;
+}
 
 .darker90 {
     filter: brightness(0.9)
